@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    font-family: 'dogica';
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 400%;
+    color:white;
+    background-color: paleturquoise;}
+.row{
+    position:relative;
+    margin-left:10%;
+    margin-right:10%;}
+
+
+.white{
+    border: 1px solid black;
+    width: 10%;
+    height: 60px;
+    background-color:white;
+    float:left;}
+        
+.black{
+    border: 1px solid black;
+    width: 10%;
+    height: 60px;
+    background-color:#787878;
+    float:left;}
+#clear {
+    clear:both;
+}
+
+#container {
+    margin-top:20%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5%;
+   }
+
+
+#footer {
+    background-color: paleturquoise;
+    padding: 10px;
+    margin:10px;
+   }
+img {
+    margin-left: 5px;
+    margin-top:10px;
+    }
+body {
+    background-image:url("https://s.yimg.com/os/creatr-uploaded-images/2021-02/572c4830-721d-11eb-bb63-96959c3b62f2");
+       }

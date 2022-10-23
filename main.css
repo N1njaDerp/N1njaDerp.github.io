@@ -6,63 +6,50 @@ p {
     font-size: 150%;
 }
 #header {
-    background-color: darkcyan;
+    background-color: rgb(138, 132, 173);
 }
 body {
     width: 90%;
     margin: 0 auto;}
 #content {
+    background-color: rgb(185, 185, 185);
     overflow: auto;}
 #nav, #feature, #footer {
     margin: 1%;}
-.column1, .column2, .column3 {
-    width: 31.3%;
-    float: left;
-    margin: 1%;}
-.column3 {
-    margin-right: 0%;}
+.column {
+    background-color: rgb(167, 167, 167);
+}
+
 li {
     display: inline;
     padding: 0.5em;}
 #nav{
-    background-color: darkcyan;
+    background-color: rgb(138, 132, 173);
     padding: 0.5em 0;}
-#feature, .article {
+.article {
     height: 10em;
     margin-bottom: 1em;
 }
-#feature {
-    background-color: rgb(183, 119, 185);
-    background-image: url("Get_Rick_Rolled.png");
-    background-size:contain;
-    background-position: right;
-    background-repeat:no-repeat;
-}
-.column1 {
-    background-color: rgb(58, 74, 122);
-}
-.column2 {
-    background-color: rgb(44, 83, 44);
-}
-.column3 {
-    background-color: rgb(124, 54, 54);
-}
+
+
+
 #footer {
     background-color: rgb(80, 38, 80);
     height: 5em;
     margin-bottom: 1em;
 }
-img {
-    height: 75%;
-    margin-left: 85%;
-    margin-right: 0px;
+
+img{
+    width:300px;
+
 }
 body {
-    background-image: url('https://wallpaper.dog/large/20374032.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: pink;
+    background-image: url('bg.png');
 }
-h1 {
-    font-family: 'DancingScriptRegular';
+h1, h2 {
+    font-family: 'GeneraleStationRegular';
+}
+a:link {
+    text-decoration: none;
+    text-align: left;
 }

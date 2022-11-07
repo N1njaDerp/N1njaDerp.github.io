@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Artifact 04 - Contact Us">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="art4.css" />
+        <title>Artifact 04</title>
+    </head>
+    <body>
+        <form id="myform" action="ty.html" onsubmit="isValid();">
+            <p>
+                <label for='FirstName'>First Name:</label>
+                <input type="text" id="FirstName" name="FirstName" />
+                <label for='LastName'>Last Name:</label>
+                <input type="text" id="LastName" name="LastName" />
+                <label for='Email'>Email:</label>
+                <input type="text" id="Email" name="Email" />
+                <label for='Phone'>Phone Number:</label>
+                <input type="text" id="Phone" name="Phone" />
+                <label for='UserName'>Username:</label>
+                <input type="text" id="UserName" name="UserName" />
+                <label for='PassWord'>Password:</label>
+                <input type="PassWord" id="PassWord" name="PassWord" />
+                <label for='AddRess'>Address:</label>
+                <input type="text" id="AddRess" name="AddRess" />
+                <label for='CiTy'>City:</label>
+                <input type="text" id="CiTy" name="CiTy" />
+                <label for="State">State:</label>
+                <select name="State" id="State">
+                    <option value="alabama">alabama</option>
+                    <option value="alaska">alaska</option>
+                    <option value="arizona">arizona</option>
+                    <option value="arkansas">arkansas</option>
+                    <option value="california">california</option>
+                    <option value="colorado">colorado</option>
+                    <option value="connecticut">connecticut</option>
+                    <option value="dc">dc</option>
+                    <option value="delaware">delaware</option>
+                    <option value="florida">florida</option>
+                    <option value="georgia">georgia</option>
+                    <option value="hawaii">hawaii</option>
+                    <option value="idaho">idaho</option>
+                    <option value="illinois">illinois</option>
+                    <option value="indiana">indiana</option>
+                    <option value="iowa">iowa</option>
+                    <option value="kansas">kansas</option>
+                    <option value="kentucky">kentucky</option>
+                    <option value="louisiana">louisiana</option>
+                    <option value="maine">maine</option>
+                    <option value="maryland">maryland</option>
+                    <option value="massachusetts">massachusetts</option>
+                    <option value="michigan">michigan</option>
+                    <option value="minnesota">minnesota</option>
+                    <option value="missouri">missouri</option>
+                    <option value="montana">montana</option>
+                    <option value="nebraska">nebraska</option>
+                    <option value="nevada">nevada</option>
+                    <option value="new hampshire">new hampshire</option>
+                    <option value="new jersey">new jersey</option>
+                    <option value="new mexico">new mexico</option>
+                    <option value="new york">new york</option>
+                    <option value="north carolina">north carolina</option>
+                    <option value="north dakota">north dakota</option>
+                    <option value="ohio">ohio</option>
+                    <option value="oklahoma">oklahoma</option>
+                    <option value="oregon">oregon</option>
+                    <option value="pennsylvania">pennsylvania</option>
+                    <option value="rhode island">rhode island</option>
+                    <option value="south carolina">south carolina</option>
+                    <option value="south dakota">south dakota</option>
+                    <option value="tennessee">tennessee</option>
+                    <option value="texas">texas</option>
+                    <option value="utah">utah</option>
+                    <option value="vermont">vermont</option>
+                    <option value="virginia">virginia</option>
+                    <option value="washington">washington</option>
+                    <option value="west virginia">west virginia</option>
+                    <option value="wisconsin">wyoming</option>
+                </select>
+                <select name="Country" id="country">
+                    <option value="USA">USA</option>
+                    <option value="canada">Canada</option>
+                </select>
+                    <label for='Zip'>Zip code:</label>
+                    <input type="text" id="Zip" name="Zip" />
+                    <label for='Comments'>Comments:</label>
+                    <input type="text" id="Comments" name="Comments" />
+
+            </p>
+            <div class="warning" id="fname"></div>
+            <div class="warning" id="lname"></div>
+            <div class="warning" id="email"></div>
+            <div class="warning" id="phone"></div>
+            <div class="warning" id="uname"></div>
+            <div class="warning" id="pswd"></div>
+            <div class="warning" id="adrs"></div>
+            <div class="warning" id="city"></div>
+            <p>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </p>
+        
+            <div class="warning" id="submiterror"></div>
+        
+        </form>
+
+        <script src="validator.js" type="text/javascript"></script>
+    </body>
+</html>

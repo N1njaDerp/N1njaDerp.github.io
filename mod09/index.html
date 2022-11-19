@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mod 09</title>
+  <link rel="stylesheet" href="mod09.css" />
+</head>
+<body>
+  <h3>Click Anywhere</h1>
+  <p>
+    <button>Clear</button>
+  </p>
+  <script>
+        var  mybutton = document.querySelector("button");
+    mybutton.addEventListener("click", function(event) {
+
+
+    var element = document.getElementsByTagName("div");
+    for (index = element.length - 1; index >= 0; index--) {
+        element[index].parentNode.removeChild(element[index]);
+    }
+
+    // Let us stop the propagation of events
+
+    event.stopPropagation();
+    });
+    addEventListener("click", function(event) {
+        var dot = document.createElement("div");
+        dot.className = "dot";
+        dot.style.left = (event.pageX - 4) + "px";
+        dot.style.top = (event.pageY - 4) + "px";
+        document.body.appendChild(dot);
+    });
+  </script>
+</body>
+</html>
